@@ -1,3 +1,7 @@
+package com.qianlaofei.annotation;
+
+import com.qianlaofei.annotation.TestableException;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -39,6 +43,6 @@ public class TestableExceptionProcessor {
     }
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
-        process("TestCase2");
+        process("com.qianlaofei.annotation.TestCase2");
     }
 }

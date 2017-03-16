@@ -1,3 +1,5 @@
+package com.qianlaofei.annotation;
+
 import org.junit.Test;
 
 import java.lang.annotation.Annotation;

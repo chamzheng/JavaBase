@@ -1,3 +1,5 @@
+package com.qianlaofei.annotation;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -26,6 +28,6 @@ public class TestableProcessor {
     }
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
-        TestableProcessor.process("TestCase");
+        TestableProcessor.process("com.qianlaofei.annotation.TestCase");
     }
 }

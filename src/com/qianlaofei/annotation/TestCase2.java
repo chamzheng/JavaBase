@@ -1,3 +1,8 @@
+package com.qianlaofei.annotation;
+
+import com.qianlaofei.annotation.Testable;
+import com.qianlaofei.annotation.TestableException;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

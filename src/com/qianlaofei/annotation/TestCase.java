@@ -1,4 +1,6 @@
-import org.junit.Test;
+package com.qianlaofei.annotation;
+
+import com.qianlaofei.annotation.Testable;
 
 import java.io.IOException;
 
